@@ -1,16 +1,14 @@
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
     border-bottom: 1px solid #f9f9f9;
-}
-
-.header__image {
-    height: 40px;
-    object-fit: contain;
-}
-
-.headerIcons {
-    padding: 20px;
-    cursor: pointer;
-}
+    background-color: #272829; /* Replace with your desired color */
+    padding: 10px; /* Optional: Adds some padding around the content */
+  }
+  
+  .header__image {
+    height: 80px;
+    width: 80px;
+  }
+  

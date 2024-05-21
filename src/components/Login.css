@@ -1,0 +1,45 @@
+/* Login.css */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; /* Align items towards the end of the container */
+    height: calc(50vh - 50px); /* Subtract 50px from the height */
+    background-color: #f2f2f2;
+    padding-bottom: 325px; /* Add padding at the bottom */
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.login-container input[type="text"], .login-container input[type="password"] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.login-container input[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: #007BFF;
+    cursor: pointer;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #0056b3;
+}

@@ -12,26 +12,11 @@ function Header({ backButton }) {
 
     return (
         <div className='header'>
-            {backButton ? (
-                <IconButton onClick={() => history.replace(backButton)}>
-                    <ArrowBackIosIcon fontSize='large' className='headerIcons' />
-                </IconButton>
-
-            ) : (
-                <IconButton>
-                    <PersonIcon className='headerIcons' fontSize='large' />
-                </IconButton>
-            )}
             <Link to='/'>
-                <img className='header__image' src='https://drive.google.com/uc?export=download&id=16irET-NWvD4aI255f7qO_1adcHFgzrFc' alt='tinder/logo' />
-            </Link>
-            <Link to='/chat'>
-                <IconButton>
-                    <ForumIcon className='headerIcons' fontSize='large' />
-                </IconButton>
+                <img className='header__image' src='logo.png' alt='hi' />
             </Link>
         </div>
     )
 }
 
-export default Header
+export default Header;

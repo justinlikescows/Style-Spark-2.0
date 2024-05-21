@@ -1,0 +1,37 @@
+.quiz-container {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .progress-bar {
+    height: 10px;
+    background-color: #4caf50;
+    margin-bottom: 20px;
+  }
+  
+  .question-container {
+    margin-top: 20px;
+  }
+  
+  .images-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .images-container img {
+    width: 300px; /* Adjust the size as needed */
+    cursor: pointer;
+    border: 2px solid transparent;
+  }
+  
+  .images-container img:hover {
+    border: 2px solid #4caf50;
+  }
+  
+  .results-container {
+    margin-top: 20px;
+  }
+  
